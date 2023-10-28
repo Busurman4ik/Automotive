@@ -1,0 +1,151 @@
+@media screen and (max-width: 1200px) {
+    .services {
+        width: 100%;
+        padding: 50px 0 0;
+    }
+
+    .services__item {
+        width: 48%;
+        min-width: 100px;
+        margin-bottom: 60px;
+    }
+
+    .item__text {
+        width: 200px;
+        margin: 0 auto 30px;
+    }
+
+    .services__title {
+        margin-bottom: 60px;
+    }
+
+    .item__icon {
+        font-size: 150px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .menu-list {
+        display: none;
+    }
+    .header__content {
+        margin: 0 auto;
+    }
+
+    .header__button {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header__title {
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .store__inner {
+        display: block;
+    }
+
+    .store__text {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .store__button a{
+        margin: 0 auto;
+    }
+
+    .pricing__inner {
+        display: block;
+        text-align: center;
+    }
+    
+    .pricing__item {
+        width: 70%;
+        margin: 0 auto 15px;
+        padding: 20px 0;
+    }
+
+    .pricing__item:last-child {
+        margin-right: auto;
+    }
+
+    .item__name {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .item__price {
+        font-size: 35px;
+    
+        margin-bottom: 20px;
+    }
+
+    .item__list {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .text {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .header__title {
+        font-size: 55px;
+        line-height: 70px;
+    
+        margin-bottom: 30px;
+    }
+
+    .services__item {
+        width: 100%;
+        min-width: 200px;
+        margin: 0 auto;
+    }
+
+    .services__title {
+        margin-bottom: 20px;
+    }
+
+    .item__icon {
+        font-size: 100px;
+    }
+
+    .store__button a {
+        width: 200px;
+    }
+
+    .item__name {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .item__button a {
+        width: 150px;
+        
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer__inner {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__text {
+        margin-bottom: 20px;
+    }
+}
